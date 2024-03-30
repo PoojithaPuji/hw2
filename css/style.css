@@ -1,0 +1,83 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Directory Structure */
+/* No changes needed as it's not related to CSS */
+
+/* 2) Limit body width to 80ch */
+body {
+    max-width: 80ch;
+    margin: 0 auto; /* Center the body */
+}
+
+/* 3) Define distinct colors */
+body {
+    background-color: #f0f0f0; /* Background color */
+    color: #333; /* Foreground color */
+}
+
+a {
+    color: #007bff; /* Link color */
+}
+
+/* 4) Increase header text size */
+h1, h2, h3 {
+    font-size: 3em; /* Three times larger than normal text */
+}
+
+/* 5) Header background color */
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Faded version of foreground color */
+}
+
+/* 6) Navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px; /* Equal space between menu options */
+}
+
+nav a {
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color change */
+}
+
+nav a:hover {
+    color: #ff6600; /* Highlighted color on hover */
+}
+
+nav ul:after {
+    content: ""; /* Extra space after unordered list */
+    display: block;
+    clear: both;
+}
+
+/* 8) Heading tag spacing */
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Additional entry in blog */
+.blog-entry {
+    text-align: center; /* Horizontally center */
+}
+
+.blog-entry img {
+    width: 250px;
+}
+
+.blog-entry figcaption {
+    font-style: italic;
+}
+
+.blog-entry p {
+    margin-top: 20px; /* Space after image */
+}
